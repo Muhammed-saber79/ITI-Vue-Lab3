@@ -4,13 +4,26 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "json-server --watch --port 4000 db.json"
   },
   "dependencies": {
-    "vue": "^3.2.13"
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "pinia": "^2.0.35",
+    "popper.js": "^1.16.1",
+    "vue": "^3.2.13",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "exports-loader": "^4.0.0"
   },
   "browserslist": [
     "> 1%",

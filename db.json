@@ -1,0 +1,129 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "students": [
+    {
+      "id": 2,
+      "name": "Majed",
+      "city": "Cairo"
+    },
+    {
+      "id": 3,
+      "name": "Wael",
+      "city": "Giza"
+    },
+    {
+      "id": 4,
+      "name": "Regan Delgado",
+      "city": "Giza"
+    },
+    {
+      "id": 5,
+      "name": "Wallace Wheeler",
+      "city": "Cairo"
+    },
+    {
+      "id": 6,
+      "name": "Arthur Duncan",
+      "city": "Ismailia"
+    }
+  ],
+  "cities": [
+    {
+      "name": "Alexandria"
+    },
+    {
+      "name": "Aswan"
+    },
+    {
+      "name": "Asyut"
+    },
+    {
+      "name": "Beheira"
+    },
+    {
+      "name": "Beni Suef"
+    },
+    {
+      "name": "Cairo"
+    },
+    {
+      "name": "Dakahlia"
+    },
+    {
+      "name": "Damietta"
+    },
+    {
+      "name": "Faiyum"
+    },
+    {
+      "name": "Gharbia"
+    },
+    {
+      "name": "Giza"
+    },
+    {
+      "name": "Ismailia"
+    },
+    {
+      "name": "Kafr El Sheikh"
+    },
+    {
+      "name": "Luxor"
+    },
+    {
+      "name": "Matrouh"
+    },
+    {
+      "name": "Minya"
+    },
+    {
+      "name": "Monufia"
+    },
+    {
+      "name": "New Valley"
+    },
+    {
+      "name": "North Sinai"
+    },
+    {
+      "name": "Port Said"
+    },
+    {
+      "name": "Qalyubia"
+    },
+    {
+      "name": "Qena"
+    },
+    {
+      "name": "Red Sea"
+    },
+    {
+      "name": "Sharqia"
+    },
+    {
+      "name": "Sohag"
+    },
+    {
+      "name": "South Sinai"
+    },
+    {
+      "name": "Suez"
+    }
+  ]
+}

@@ -1,16 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container gap-3">
+    <!-- Header Component -->
+    <HeaderComponent :branch="{name:'Mansoura', intake:'43', track:'os'}"></HeaderComponent>
+
+    <!-- Main -->
+    <div class="row">
+      <!-- SideNav Component -->
+      <SideNavComponent></SideNavComponent>
+
+      <!-- Content Component -->
+      <ContentComponent></ContentComponent>
+    </div>
+
+    <!-- Footer Component -->
+    <FooterComponent></FooterComponent>
+
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from './components/HeaderComponent.vue';
+import SideNavComponent from './components/SideNavComponent.vue';
+import ContentComponent from './components/ContentComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HeaderComponent,
+    SideNavComponent,
+    ContentComponent,
+    FooterComponent
+}
 }
 </script>
 
@@ -22,5 +43,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.row{
+  margin: 15px 15px;
 }
 </style>
